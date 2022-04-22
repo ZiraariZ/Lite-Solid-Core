@@ -1,0 +1,4 @@
+Формула расчёта значений успеха и провала при крафте предмета
+
+success = int((constants.Skills["Изобретательность"] + Skill * Bonus) / 10)
+print(Chance(success))

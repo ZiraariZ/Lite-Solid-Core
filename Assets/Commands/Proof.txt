@@ -1,0 +1,4 @@
+Формула расчёта значений успеха и провала при убеждении
+
+success = int((constants.Skills["Социальность"] + Skill * Bonus) / 10)
+print(Chance(success))
